@@ -1,0 +1,233 @@
+
+@font-face{
+	font-family: "Lato-Bold";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face{
+	font-family: "Lato-Black";
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+@font-face{
+	font-family: "Lato-Regular";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+.header{
+	background-color: #000;
+	margin-bottom: 100px;
+}
+.header__description,
+.footer__description{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: #fff;
+	font-family: "Lato-Bold", sans-serif;
+	font-size: 20px;
+}
+[class*="__container"]{
+	max-width: 810px;
+	margin: 0 auto;
+}
+img,
+source {
+	max-width: 100%;
+}
+body{
+	font-family: "Lato-Regular", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	color: #1E212C; 
+}
+h2{
+	font-family: "Lato-Black", sans-serif;
+	font-size: 46px;
+	font-weight: 900;
+	line-height: 60px;
+}
+.article__title{
+	margin-bottom: 40px;
+}
+.article__image{
+	margin-bottom: 60px;
+}
+.article__text-bold p,
+.blockquote{
+	font-family: "Lato-Bold", sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 150%;
+}
+.article__text-bold{
+	margin-bottom: 24px;
+}
+.article__text p:not(:last-child){
+	margin-bottom: 24px;
+}
+.text{
+	margin-bottom: 48px;
+}
+.blockquote{
+	background: url(../img/braces.svg) 0 0 no-repeat;
+	margin-bottom: 48px;
+	padding-left: 58px;
+}
+.list li{
+	background: url(../img/check.svg) 0 5px no-repeat;
+	min-width: 26px;
+	padding-left: 32px;
+}
+.list li:not(:last-child){
+	margin-bottom: 4px;
+}
+.list{
+	margin-bottom: 24px;
+}
+.article{
+	margin-bottom: 150px;
+}
+.why-createx__image{
+	margin-bottom: 60px;
+}
+.title>h5{
+font-family: "Lato-Bold", sans-serif;
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+text-transform: uppercase;
+margin-bottom: 8px;
+}
+.why-createx__column>.title{
+	margin-bottom: 40px;
+}
+.why-createx__image{
+	max-width: 705px;
+	max-height: 560px;
+	border-radius: 4px;
+}
+.button a{
+	display: inline-block;
+	background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+	border-radius: 4px;
+	font-family: "Lato-Bold", sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	color: #fff;
+	line-height: 44px;
+	padding: 0 32px;
+}
+.why-createx,
+.featured-courses{
+	margin-bottom: 150px;
+}
+.featured-courses__heider>.title{
+	margin-bottom: 24px;
+}
+.button--border a{
+	margin-bottom: 60px;
+	color: #F75E05;
+	border: 1px solid transparent;
+	background: linear-gradient(#fff,#fff) padding-box, linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%) border-box;
+	border-radius: 4px;
+}
+.featured-courses__item:not(:last-child){
+	margin-bottom: 30px;
+}
+.mark{
+	display: inline-block;
+	padding: 1px 8px;
+	border-radius: 4px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+.featured-courses__image{
+	margin-bottom: 24px;
+}
+.mark--marketing{
+	background: #03CEA4;
+}
+.mark--managment{
+	background: #5A87FC;
+}
+.mark--hr{
+	background: #F89828;
+}
+.mark--design{
+	background: #F52F6E;
+}
+.featured-courses__text>h4{
+	font-family: "Lato-Bold", sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 150%;
+	margin-bottom: 20px;
+}
+.price{
+	color: #787A80;
+}
+.price p {
+	display: inline-block;
+}
+.price p:first-of-type{
+	font-family: "Lato-Bold", sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	color:#FF4242;
+}
+.benefit{
+	margin-bottom: 150px;
+}
+.benefit__heider{
+	margin-bottom: 60px;
+}
+.benefit__heider>.title{
+	text-align: center;
+	margin-bottom: 60px;
+}
+.benefit__list li{
+	display: inline-block;
+}
+.benefit__list a {
+	display: inline-block;
+	padding: 10px 30px;
+	border-radius: 4px;
+	border: 1px solid transparent;
+	min-width: 260px;
+	min-height: 46px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 700;
+	color:#9A9CA5;
+}
+.benefit__list a:hover,
+.benefit__list a:active{
+	border: 1px solid #FF3F3A;
+	color: #FF3F3A;
+}
+.benefit__description h3{
+	font-family: "Lato-Black", sans-serif;
+	font-size: 32px;
+	font-weight: 900;
+	margin-bottom: 24px;
+}
+.benefit__description p{
+	margin-bottom: 40px;
+}
+.benefit__image img{
+	margin: 0 auto;
+	display: block;
+}
+.footer{
+	background-color: #000;
+} 
+
